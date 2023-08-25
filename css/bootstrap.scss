@@ -1,0 +1,15 @@
+$primary: #147E45;
+$carousel-indicator-width: 15px;
+$carousel-indicator-height: 15px;
+
+.carousel-indicators button {
+  border-radius: 50%;
+    margin: 0px 7px !important;
+}
+
+.carousel-indicators .active  {
+$carousel-indicator-width: 20px;
+  background-color:  #147E45;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";
