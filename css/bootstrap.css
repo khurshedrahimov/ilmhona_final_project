@@ -8,6 +8,12 @@
   background-color: #147E45;
 }
 
+.rounded-circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 100% !important;
+}
+
 /*!
  * Bootstrap  v5.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -11858,6 +11864,86 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.h-10 {
+  height: 10% !important;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #147E45;
+  --bs-btn-border-color: #147E45;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #1FB765;
+  --bs-btn-hover-border-color: #1FB765;
+  --bs-btn-focus-shadow-rgb: 55, 145, 97;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #147E45;
+  --bs-btn-active-border-color: #147E45;
+  --bs-btn-active-shadow: outset 0 4px 20px rgba(13, 77, 42, 0.33);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #fff;
+  --bs-btn-disabled-border-color: #fff;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--bs-heading-color);
+}
+
+h2, .h2, h1, .h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--bs-heading-color);
+}
+
+h1, .h1 {
+  font-size: 35px;
+}
+
+@media (max-width: 480px) {
+  h1, .h1 {
+    font-size: 22px;
+  }
+}
+h2, .h2 {
+  font-size: 22px;
+}
+
+@media (max-width: 480px) {
+  h2, .h2 {
+    font-size: 16px;
+  }
+}
+h3, .h3 {
+  font-size: 19px;
+}
+
+@media (max-width: 480px) {
+  h3, .h3 {
+    font-size: 14px;
+  }
+}
+h4, .h4 {
+  font-size: 17px;
+}
+
+@media (max-width: 480px) {
+  h4, .h4 {
+    font-size: 1.5rem;
+  }
+}
+h5, .h5 {
+  font-size: 16px;
+}
+
+h6, .h6 {
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
