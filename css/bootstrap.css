@@ -12082,4 +12082,10 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 12px;
+}
+
+@media (max-width: 576px) {
+  .border-end {
+    border-right: none !important;
+  }
 }/*# sourceMappingURL=bootstrap.css.map */
