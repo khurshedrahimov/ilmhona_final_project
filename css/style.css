@@ -92,6 +92,17 @@ margin-bottom:30px;
     margin-bottom: 127px;
 }
 
+.section5-height {
+    min-height: 233px;
+}
+
+.footer-height {
+    min-height: 211px;
+}
+
+
+
+
 @media (max-width: 1100px) {
 .d-btn-none {
    display: none;
