@@ -12044,6 +12044,15 @@ h1, .h1 {
   font-size: 35px;
 }
 
+.ms-6 {
+  margin-left: 4rem !important;
+}
+
+@media (max-width: 576px) {
+  .ms-6 {
+    margin-left: 0rem !important;
+  }
+}
 @media (max-width: 480px) {
   h1, .h1 {
     font-size: 22px;
