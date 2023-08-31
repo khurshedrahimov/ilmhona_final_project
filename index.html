@@ -11,54 +11,57 @@
 </head>
 
 <body>
-    <!-- Section 1 Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light my-4  ">
-        <div class="container w80">
-            <a class="navbar-brand width-reduce" href="#"><img src="./images/ScientificEquipment.png" alt="Logo"
-                    class="img-sm-size-reduce" /></a>
+<!-- Section 1 Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light my-4  ">
+    <div class="container w80">
 
-            <select title="language" class="selectpicker btn btn-primary dropdown-toggle d-md-none px-1 "
+        <a class="navbar-brand width-reduce" href="#"><img src="./images/ScientificEquipment.png" alt="Logo"
+                class="img-sm-size-reduce pb-md-2 pb-3" /></a>
+
+        <div class="mb-3">
+            <select title="language" class="selectpicker btn btn-primary dropdown-toggle d-lg-none px-1 mx-1"
                 data-width="fit" onchange="location = this.value;">
                 <option value="" selected>Ru</option>
                 <option value="index_EN.html">Eng</option>
             </select>
 
-            <button title="button" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <button title="button" class="navbar-toggler border-0 p-0 " type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse class1 mt-2 vh100" id="collapsibleNavbar">
-                <ul class="navbar-nav ms-auto ">
-
-                    <li class="nav-item">
-                        <a class="nav-link text-primary h16" href="index.html">Главная</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary  h16" href="equipment.html">Оборудование</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary h16 " href="about.html#contactUs">Контакты</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary h16" href="about.html#abouttUs">О нас</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary h16"
-                            href="mailto:scienteq.pro@gmail.com">scienteq.pro@gmail.com</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="ml-auto d-none d-md-block">
-                <select title="language" class="selectpicker btn btn-primary dropdown-toggle px-1 " data-width="fit"
-                    onchange="location = this.value;">
-                    <option value="" selected>Ru</option>
-                    <option value="index_EN.html">Eng</option>
-                </select>
-            </div>
         </div>
-    </nav>
+
+        <div class="collapse navbar-collapse class1 mt-2 vh100 " id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto pb-1 ">
+
+                <li class="nav-item">
+                    <a class="nav-link text-primary h16" href="index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary  h16" href="equipment.html">Оборудование</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary h16 " href="about.html#contactUs">Контакты</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary h16" href="about.html#abouttUs">О нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary h16"
+                        href="mailto:scienteq.pro@gmail.com">scienteq.pro@gmail.com</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="ml-auto d-none d-lg-block ">
+            <select title="language" class="selectpicker btn btn-primary dropdown-toggle px-1 " data-width="fit"
+                onchange="location = this.value;">
+                <option value="" selected>Ru</option>
+                <option value="index_EN.html">Eng</option>
+            </select>
+        </div>
+    </div>
+</nav>
 
     <!-- Section 2 -->
     <div class="container w80 mt-5">

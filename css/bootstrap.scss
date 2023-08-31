@@ -91,6 +91,13 @@ h1, .h1 {
   margin-top: 8rem !important;
 }
 
+
+@media (max-width: 576px) {
+.mt-8 {
+    margin-top: 3rem !important;
+}
+}
+
 .mt-9 {
   margin-top: 9rem !important;
 }
