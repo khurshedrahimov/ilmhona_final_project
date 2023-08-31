@@ -132,6 +132,34 @@ input.filled + label .required-indicator {
     max-width: 350px;
 }
 
+.w80 {
+  width: 80%;
+}
+
+.borderImage {
+    border-left: 2px solid #EEEFF2;
+}
+
+@media (max-width: 780px) {
+.borderImage {
+    border-left:0px;
+    border-top: 2px solid #EEEFF2;
+}
+}
+
+
+@media (max-width: 780px) {
+.vh100 {
+  height: 100vh !important;
+}
+}
+
+@media (max-width: 576px) {
+.w80 {
+  width: 95%;
+}
+}
+
 @media (max-width: 576px) {
   .mbot  {
     margin-bottom: 20px;
@@ -168,6 +196,13 @@ input.filled + label .required-indicator {
 .left-border {
     border-left: 0px;
     border-top: 2px solid #EEEFF2;
+}
+}
+
+@media (max-width: 900px) {
+.right-border {
+    border-right: 0px;
+   
 }
 }
 

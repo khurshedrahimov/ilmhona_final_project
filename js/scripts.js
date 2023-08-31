@@ -6,7 +6,7 @@
 // For slide change hiding and showing some divs
 document.addEventListener('DOMContentLoaded', function () {
                 let carousel = document.getElementById('demo');
-                let elementToShow = document.getElementById('ElementId');
+                let elementToShow = document.getElementById('elementID');
 
                 carousel.addEventListener('slid.bs.carousel', function (event) {
                     let activeSlide = event.to;
@@ -18,18 +18,18 @@ document.addEventListener('DOMContentLoaded', function () {
                     }
 
                     if (activeSlide === 2) {
-                        let element3ToShow = document.getElementById('ElementId3');
+                        let element3ToShow = document.getElementById('elementID3');
                         element3ToShow.classList.remove('d-none');
                     } else {
-                        let element3ToShow = document.getElementById('ElementId3');
+                        let element3ToShow = document.getElementById('elementID3');
                         element3ToShow.classList.add('d-none');
                     }
 
                     if (activeSlide === 3) {
-                        let element4ToShow = document.getElementById('ElementId4');
+                        let element4ToShow = document.getElementById('elementID4');
                         element4ToShow.classList.remove('d-none');
                     } else {
-                        let element4ToShow = document.getElementById('ElementId4');
+                        let element4ToShow = document.getElementById('elementID4');
                         element4ToShow.classList.add('d-none');
                     }
 

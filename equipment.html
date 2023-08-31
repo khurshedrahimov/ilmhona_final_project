@@ -1,78 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" /> -->
+    <title>TechForTomorrow</title>
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <div class="container" style="width: 80%">
+    <!-- Section 1 Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light my-4 ">
+        <div class="container w80">
             <a class="navbar-brand width-reduce" href="#"><img src="./images/ScientificEquipment.png" alt="Logo"
                     class="img-sm-size-reduce" /></a>
-
-            <select title="language" class="selectpicker btn btn-primary dropdown-toggle d-md-none " data-width="fit"
+    
+            <select title="language" class="selectpicker btn btn-primary dropdown-toggle d-md-none px-1 " data-width="fit"
                 onchange="location = this.value;">
-                <option value="" selected>RU</option>
+                <option value="" selected>Ru</option>
                 <option value="index_EN.html">Eng</option>
             </select>
-
-
+    
             <button title="button" class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-
-
-            <div class="collapse navbar-collapse class1 mt-2" id="collapsibleNavbar">
-                <ul class="navbar-nav ms-auto">
-                
+    
+            <div class="collapse navbar-collapse class1 mt-2 vh100 " id="collapsibleNavbar">
+                <ul class="navbar-nav ms-auto ">
+    
                     <li class="nav-item">
-                        <a class="nav-link text-dark bg-white" href="index.html" style="font-size: 16px; font-weight: 400">Главная</a>
+                        <a class="nav-link text-primary h16" href="index.html">Главная</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark bg-white" href="equipment.html"
-                            style="font-size: 16px; font-weight: 400">Оборудование</a>
+                        <a class="nav-link text-secondary  h16" href="equipment.html">Оборудование</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark bg-white" href="about.html#contactUs"
-                            style="font-size: 16px; font-weight: 400">Контакты</a>
+                        <a class="nav-link text-secondary h16 " href="about.html#contactUs">Контакты</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark bg-white" href="about.html#abouttUs" style="font-size: 16px; font-weight: 400">О
-                            нас</a>
+                        <a class="nav-link text-secondary h16" href="about.html#abouttUs">О нас</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark bg-white" href="mailto:scienteq.pro@gmail.com"
-                            style="font-size: 16px; font-weight: 400">scienteq.pro@gmail.com</a>
+                        <a class="nav-link text-secondary h16"
+                            href="mailto:scienteq.pro@gmail.com">scienteq.pro@gmail.com</a>
                     </li>
                 </ul>
             </div>
-
+    
             <div class="ml-auto d-none d-md-block">
-                <select title="language" class="selectpicker btn btn-primary dropdown-toggle" data-width="fit"
+                <select title="language" class="selectpicker btn btn-primary dropdown-toggle px-1 " data-width="fit"
                     onchange="location = this.value;">
-                    <option value="" selected>RU</option>
+                    <option value="" selected>Ru</option>
                     <option value="index_EN.html">Eng</option>
                 </select>
             </div>
         </div>
     </nav>
 
-
 <!-- Section 2 -->
-
-<div id="ElementId4" class="container mt-5  "  style="width: 80%">
+<div id="elementID4" class="container w80 mt-5 " >
     <h1 class="mb127">Каталог геологического оборудования</h1>
     <div class="row   ">
-        <div class="col-12 col-md-6 border-end border-bottom border-2 border-color-eeeff2 pbot ">
+        <div class="col-12 col-md-6 right-border bottom-border  pb-5 ">
             <div class="d-flex section4-height">
                 <div class="row">
                     <div class="col section4-height d-flex flex-column justify-content-center  ">
@@ -80,12 +72,12 @@
                     </div>
                     <div class="col ">
                         <h3 class="my-3"><b>Профессиональное геологическое оборудование</b></h3>
-                        <h4 class="mb-5">Ручной мотобур ПМБ-2б для отбора геологических и прочих проб</h4>
+                        <h4 class="mb-5 text-secondary">Ручной мотобур ПМБ-2б для отбора геологических и прочих проб</h4>
 
                         <button title="button "
-                            class="btn btn-outline-primary mt-4 btnSize shadow d-flex align-items-center mx-auto ">
+                            class="btn btn-outline-primary mt-4 btnSize shadow d-flex align-items-center mx-auto mx-md-0 ">
                             <div class="w-100 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                <h3 style="margin: 0">Купить</h3>
+                                <h3 class="m-0">Купить</h3>
                             </div>
                         </button>
                     </div>
@@ -94,7 +86,7 @@
             </div>
 
         </div>
-        <div class="col-12 col-md-6 border-bottom border-2 border-color-eeeff2 pbot ">
+        <div class="col-12 col-md-6 bottom-border pbot pb-5 ">
             <div class="d-flex section4-height">
                 <div class="row">
                     <div class="col">
@@ -102,12 +94,12 @@
                     </div>
                     <div class="col">
                         <h3 class="my-3"><b>Бак переносной с ручным насосом</b></h3>
-                        <h4 class="mb-5">10-литровый бак для воды с ручным насосом.</h4>
+                        <h4 class="mb-5 text-secondary">10-литровый бак для воды с ручным насосом.</h4>
 
                         <button title="button"
-                            class="btn btn-outline-primary mt-4 btnSize shadow d-flex align-items-center mx-auto ">
+                            class="btn btn-outline-primary mt-4 btnSize shadow d-flex align-items-center mx-auto mx-md-0 ">
                             <div class="w-100 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                <h3 style="margin: 0">Купить</h3>
+                                <h3 class="m-0">Купить</h3>
                             </div>
                         </button>
                     </div>
@@ -119,24 +111,23 @@
     </div>
 </div>
 
-    <div id="ElementId3" class="container  " style="width: 80%;">
-     
-        <div class="row">
+    <div id="elementID3" class="container w80 " >     
+        <div class="row ">
             
-            <div class="col-12 col-md-6 border-end border-2 border-color-eeeff2   ">
+            <div class="col-12 col-md-6 right-border  ">
                 <div class="d-flex section4-height">
                     <div class="row">
                         <div class="col  colsm-12">
-                            <img src="./images/20220406_1441561.png" alt="Image" class="mx-auto d-block mt-4 " />
+                            <img src="./images/5.png" alt="Image" class="mx-auto d-block mt-4 " />
                         </div>
                         <div class="col mt-2">
                             <h3 class="my-3"><b>Безрезьбовая буровая коронка с алмазным наконечником</b></h3>
-                            <h4 class="mb-5">Буровая коронка из высокопрочной, немагнитной нержавеющей стали</h4>
+                            <h4 class="mb-5 text-secondary">Буровая коронка из высокопрочной, немагнитной нержавеющей стали</h4>
     
                             <button title="button"
-                                class="btn btn-outline-primary mt-4 btnSize shadow d-flex align-items-center mx-auto">
+                                class="btn btn-outline-primary mt-4 btnSize shadow d-flex align-items-center mx-auto mx-md-0 ">
                                 <div class="w-100 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    <h3 style="margin: 0">Купить</h3>
+                                    <h3 class="m-0">Купить</h3>
                                 </div>
                             </button>
                         </div>
@@ -149,61 +140,55 @@
     </div>
 
 
-    <!-- Section 5 -->
-
-    <div class="container bg-body-tertiary section5-height my-5 shadow d-flex justify-content-center"
-        style="width: 80%">
+    <!-- Section 5 -->    
+    <div class="container w80 section5-height mt-8 shadow d-flex justify-content-center">
         <div class="row">
             <div class="col-md-6 col-12 order-md-1 d-flex flex-column justify-content-center ">
                 <h1 class="mb-3 ">Остались вопросы?</h1>
-                <h4>Закажите обратный звонок, с вами свяжется менеджер и всё объяснит</h4>
+                <h4 class="text-secondary">Закажите обратный звонок, с вами свяжется менеджер и всё объяснит</h4>
             </div>
             <div class="col-md-6 col-12  order-md-2 d-flex flex-column justify-content-center ">
-                <button title="button" class="btn btn-primary  btnSize shadow d-flex align-items-center mx-auto">
-                    <div class="w-100 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        <h3 style="margin: 0">Заказать звонок</h3>
+                <button title="button" class="btn btn-primary  btnSize shadow d-flex align-items-center mx-auto"
+                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="w-100 text-center">
+                        <h3 class="m-0">Заказать звонок</h3>
                     </div>
                 </button>
             </div>
         </div>
     </div>
-
-    <!-- Footer -->
-
-    <div class="container bg-body-tertiary footer-height my-5 shadow d-flex flex-column-reverse justify-content-between"
-        style="width: 80%">
+    
+    <!--Section 6 Footer -->
+    <div class="container  w80 footer-height mt-8  d-flex flex-column-reverse justify-content-between mb-5">
         <div class="mt-auto">
-            <h5>©2022 ScientificEquipment</h5>
+            <h5 class="text-secondary">©2022 ScientificEquipment</h5>
         </div>
         <div class="row">
             <div class="col-md-6 col-12 order-md-1 d-flex flex-column justify-content-between">
                 <a class="navbar-brand width-reduce d-block" href="#"><img src="./images/ScientificEquipment.png" alt="Logo"
-                        class="img-sm-size-reduce" style="margin-bottom: 1rem;" /></a>
+                        class="img-sm-size-reduce mb-3" /></a>
             </div>
             <div class="col-md-6 col-12 order-md-2 d-flex flex-column justify-content-center">
                 <div class="row">
-                    <div class="col-md-6 col-12 order-md-1 d-flex flex-column gap-3" style="margin-bottom: 1rem;">
-                        <a class="text-dark text-decoration-none" href="#"
-                            style="font-size: 18px; font-weight: 500">Оборудование</a>
-                        <a class="text-dark text-decoration-none" href="equipment.html"
-                            style="font-size: 18px; font-weight: 500">О
+                    <div class="col-md-6 col-12 order-md-1 d-flex flex-column gap-3 mb-3">
+                        <a class="text-dark text-decoration-none h18 fw-medium" href="#">Оборудование</a>
+                        <a class="text-dark text-decoration-none h18 fw-medium" href="equipment.html">О
                             нас</a>
-                        <a class="text-dark text-decoration-none"
+                        <a class="text-dark text-decoration-none h18 fw-medium" rel="noopener"
                             href="https://vc.ru/seo/491776-dlya-chego-nuzhna-politika-konfidencialnosti-na-sayte"
-                            target="_blank" style="font-size: 18px; font-weight: 500">Политика конфиденциальности</a>
+                            target="_blank">Политика конфиденциальности</a>
                     </div>
-                    <div class="col-md-6 col-12 order-md-1 d-flex flex-column justify-content-between gap-3"
-                        style="margin-bottom: 1rem;">
-                        <a class="text-dark text-decoration-none" href="about.html#contactUs"
-                            style="font-size: 15px; font-weight: 400; color:#4F5665">Контакты</a>
-                        <a class="text-dark text-decoration-none" href="mailto:scienteq.pro@gmail.com"
-                            style="font-size: 15px; font-weight: 400; color:#4F5665">scienteq.pro@gmail.com</a>
-                        <a class="text-dark text-decoration-none" href="https://www.youtube.com/" target="_blank"
-                            style="font-size: 15px; font-weight: 400; color:#4F5665">Youtube</a>
+                    <div class="col-md-6 col-12 order-md-1 d-flex flex-column justify-content-between gap-3 mb-3">
+                        <a class="text-primary text-decoration-none h15" href="about.html#contactUs">Контакты</a>
+                        <a class="text-dark text-decoration-none h15 text-secondary"
+                            href="mailto:scienteq.pro@gmail.com">scienteq.pro@gmail.com</a>
+                        <a class="text-dark text-decoration-none text-secondary h15" href="https://www.youtube.com/"
+                            target="_blank" rel="noopener">Youtube</a>
                     </div>
                 </div>
             </div>
         </div>
+
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
