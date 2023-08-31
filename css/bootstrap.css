@@ -12003,8 +12003,8 @@ textarea.form-control-lg {
   --bs-btn-active-border-color: #147E45;
   --bs-btn-active-shadow: outset 0 4px 20px rgba(13, 77, 42, 0.33);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #fff;
-  --bs-btn-disabled-border-color: #fff;
+  --bs-btn-disabled-bg: #99A09C;
+  --bs-btn-disabled-border-color: #99A09C;
 }
 
 .btn-outline-primary {

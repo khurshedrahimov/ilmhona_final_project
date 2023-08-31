@@ -5,14 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" /> -->
-    <link rel="stylesheet" href="./css/bootstrap.css" />
+     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+<body >
+    <nav class="navbar navbar-expand-md navbar-light ">
         <div class="container" style="width: 80%">
             <a class="navbar-brand width-reduce" href="#"><img src="./images/ScientificEquipment.png" alt="Logo"
                     class="img-sm-size-reduce" /></a>
@@ -31,8 +29,8 @@
     
            
     
-            <div class="collapse navbar-collapse class1 mt-2" id="collapsibleNavbar">
-                <ul class="navbar-nav ms-auto">
+            <div class="collapse navbar-collapse class1 mt-2 vh-100" id="collapsibleNavbar">
+                <ul class="navbar-nav ms-auto ">
 
                     <li class="nav-item">
                         <a class="nav-link text-dark bg-white" href="index.html"
@@ -66,7 +64,7 @@
         </div>
     </nav>
 
-    <div class="container bg-body-secondary" style="width: 80%">
+    <div class="container " style="width: 80%">
         <!-- Carousel -->
         <div id="demo" class="carousel slide" data-bs-ride="carousel">
             <!-- The slideshow/carousel -->
@@ -75,7 +73,7 @@
                 <div class="carousel-item active">
                     <!-- Left and right controls/icons -->
                     <button title="button"
-                        class="carousel-control-prev btn btn-primary rounded-5 arrow-btn top-50 d-btn-none"
+                        class="carousel-control-prev btn btn-primary rounded-5 arrow-btn top-50 d-btn-none shadow"
                         type="button" data-bs-target="#demo" data-bs-slide="prev">
                         <span><img src="./images/left.svg" alt="" /></span>
                     </button>
@@ -84,7 +82,7 @@
                         <div
                             class="col-md-6 position-relative d-flex justify-content-center align-items-center carousel-height">
                             <button title="button"
-                                class="carousel-control-next btn btn-primary rounded-5 arrow-btn position-absolute top-50 z-2 d-btn-none"
+                                class="carousel-control-next btn btn-primary rounded-5 arrow-btn position-absolute top-50 z-2 d-btn-none shadow"
                                 type="button" data-bs-target="#demo" data-bs-slide="next">
                                 <span><img src="./images/right.svg" alt="" /></span>
                             </button>
@@ -94,13 +92,13 @@
                             <!-- Indicators/dots -->
                             <div class="carousel-indicators position-absolute bottom-25">
                                 <button title="button" type="button" data-bs-target="#demo" data-bs-slide-to="0"
-                                    class="active"></button>
-                                <button title="button" type="button" data-bs-target="#demo"
+                                    class="active "></button>
+                                <button title="button" class="bg-body-secondary" type="button" data-bs-target="#demo"
                                     data-bs-slide-to="1"></button>
                                 <button title="button" type="button" data-bs-target="#demo"
-                                    data-bs-slide-to="2"></button>
+                                    data-bs-slide-to="2" class="bg-body-secondary"></button>
                                 <button title="button" type="button" data-bs-target="#demo"
-                                    data-bs-slide-to="3"></button>
+                                    data-bs-slide-to="3" class="bg-body-secondary"></button>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -117,22 +115,22 @@
                                 диаметра.
                             </h3>
                             <ul class="list-group list-group-flush gap-2 ml15">
-                                <li class="list-group-item d-flex align-items-center bg-body-secondary border-0">
+                                <li class="list-group-item d-flex align-items-center  border-0">
                                     <span
                                         class="badge bg-success rounded-circle d-flex justify-content-center align-items-cente me-2">✓</span>
                                     <h3>Бензиновый двигатель 50 см³</h3>
                                 </li>
-                                <li class="list-group-item d-flex align-items-center bg-body-secondary border-0">
+                                <li class="list-group-item d-flex align-items-center  border-0">
                                     <span
                                         class="badge bg-success rounded-circle d-flex justify-content-center align-items-cente me-2">✓</span>
                                     <h3>Вес ~5 кг</h3>
                                 </li>
-                                <li class="list-group-item d-flex align-items-center bg-body-secondary border-0">
+                                <li class="list-group-item d-flex align-items-center  border-0">
                                     <span
                                         class="badge bg-success rounded-circle d-flex justify-content-center align-items-cente me-2">✓</span>
                                     <h3>Габариты 28 × 44 × 34 см</h3>
                                 </li>
-                                <li class="list-group-item d-flex align-items-center bg-body-secondary border-0">
+                                <li class="list-group-item d-flex align-items-center  border-0">
                                     <span
                                         class="badge bg-success rounded-circle d-flex justify-content-center align-items-cente me-2">✓</span>
                                     <h3>Система охлаждения водяная</h3>
@@ -140,7 +138,7 @@
                             </ul>
                             <button title="button"
                                 class="btn btn-primary mt-4 btnSize shadow d-flex align-items-center mx-sm-auto">
-                                <div class="w-100 text-center">
+                                <div class="w-100 text-center"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <h3 style="margin: 0">Купить</h3>
                                 </div>
                             </button>
@@ -152,16 +150,16 @@
                 <div class="carousel-item">
                     <!-- Left and right controls/icons -->
                     <button title="button"
-                        class="carousel-control-prev btn btn-primary rounded-5 arrow-btn top-50 d-btn-none"
+                        class="carousel-control-prev btn btn-primary rounded-5 arrow-btn top-50 d-btn-none shadow"
                         type="button" data-bs-target="#demo" data-bs-slide="prev">
                         <span><img src="./images/left.svg" alt="" /></span>
                     </button>
 
                     <div class="row">
                         <div
-                            class="col-md-6 position-relative d-flex justify-content-center align-items-center carousel-height">
+                            class="col-md-6 position-relative d-flex justify-content-center align-items-center carousel-height ">
                             <button title="button"
-                                class="carousel-control-next btn btn-primary rounded-5 arrow-btn position-absolute top-50 z-2 d-btn-none"
+                                class="carousel-control-next btn btn-primary rounded-5 arrow-btn position-absolute top-50 z-2 d-btn-none shadow"
                                 type="button" data-bs-target="#demo" data-bs-slide="next">
                                 <span><img src="./images/right.svg" alt="" /></span>
                             </button>
@@ -171,13 +169,13 @@
                             <!-- Indicators/dots -->
                             <div class="carousel-indicators position-absolute bottom-25">
                                 <button title="button" type="button" data-bs-target="#demo"
-                                    data-bs-slide-to="0"></button>
+                                    data-bs-slide-to="0" class="bg-body-secondary"></button>
                                 <button title="button" type="button" data-bs-target="#demo" data-bs-slide-to="1"
                                     class="active"></button>
                                 <button title="button" type="button" data-bs-target="#demo"
-                                    data-bs-slide-to="2"></button>
+                                    data-bs-slide-to="2" class="bg-body-secondary"></button>
                                 <button title="button" type="button" data-bs-target="#demo"
-                                    data-bs-slide-to="3"></button>
+                                    data-bs-slide-to="3" class="bg-body-secondary"></button>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -200,22 +198,22 @@
                             </h3>
 
                             <ul class="list-group list-group-flush gap-2 ml15">
-                                <li class="list-group-item d-flex align-items-center bg-body-secondary border-0">
+                                <li class="list-group-item d-flex align-items-center  border-0">
                                     <span
                                         class="badge bg-success rounded-circle d-flex justify-content-center align-items-cente me-2">✓</span>
                                     <h3>Бензиновый двигатель 50 см³</h3>
                                 </li>
-                                <li class="list-group-item d-flex align-items-center bg-body-secondary border-0">
+                                <li class="list-group-item d-flex align-items-center  border-0">
                                     <span
                                         class="badge bg-success rounded-circle d-flex justify-content-center align-items-cente me-2">✓</span>
                                     <h3>Вес ~5 кг</h3>
                                 </li>
-                                <li class="list-group-item d-flex align-items-center bg-body-secondary border-0">
+                                <li class="list-group-item d-flex align-items-center  border-0">
                                     <span
                                         class="badge bg-success rounded-circle d-flex justify-content-center align-items-cente me-2">✓</span>
                                     <h3>Габариты 28 × 44 × 34 см</h3>
                                 </li>
-                                <li class="list-group-item d-flex align-items-center bg-body-secondary border-0">
+                                <li class="list-group-item d-flex align-items-center  border-0">
                                     <span
                                         class="badge bg-success rounded-circle d-flex justify-content-center align-items-cente me-2">✓</span>
                                     <h3>Система охлаждения водяная</h3>
@@ -223,7 +221,7 @@
                             </ul>
                             <button title="button"
                                 class="btn btn-primary mt-4 btnSize shadow d-flex align-items-center mx-sm-auto">
-                                <div class="w-100 text-center">
+                                <div class="w-100 text-center"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <h3 style="margin: 0">Купить</h3>
                                 </div>
                             </button>
@@ -235,7 +233,7 @@
                 <div class="carousel-item">
                     <!-- Left and right controls/icons -->
                     <button title="button"
-                        class="carousel-control-prev btn btn-primary rounded-5 arrow-btn top-50 d-btn-none"
+                        class="carousel-control-prev btn btn-primary rounded-5 arrow-btn top-50 d-btn-none shadow"
                         type="button" data-bs-target="#demo" data-bs-slide="prev">
                         <span><img src="./images/left.svg" alt="" /></span>
                     </button>
@@ -244,7 +242,7 @@
                         <div
                             class="col-md-6 position-relative d-flex justify-content-center align-items-center carousel-height">
                             <button title="button"
-                                class="carousel-control-next btn btn-primary rounded-5 arrow-btn position-absolute top-50 z-2 d-btn-none"
+                                class="carousel-control-next btn btn-primary rounded-5 arrow-btn position-absolute top-50 z-2 d-btn-none shadow"
                                 type="button" data-bs-target="#demo" data-bs-slide="next">
                                 <span><img src="./images/right.svg" alt="" /></span>
                             </button>
@@ -255,13 +253,13 @@
                             <!-- Indicators/dots -->
                             <div class="carousel-indicators position-absolute bottom-25">
                                 <button title="button" type="button" data-bs-target="#demo"
-                                    data-bs-slide-to="0"></button>
+                                    data-bs-slide-to="0" class="bg-body-secondary"></button>
                                 <button title="button" type="button" data-bs-target="#demo"
-                                    data-bs-slide-to="1"></button>
+                                    data-bs-slide-to="1" class="bg-body-secondary"></button>
                                 <button title="button" type="button" data-bs-target="#demo" data-bs-slide-to="2"
                                     class="active"></button>
                                 <button title="button" type="button" data-bs-target="#demo"
-                                    data-bs-slide-to="3"></button>
+                                    data-bs-slide-to="3" class="bg-body-secondary"></button>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -274,7 +272,7 @@
                             </h3>
 
                             <ul class="list-group list-group-flush gap-2 ml15">
-                                <li class="list-group-item d-flex align-items-center bg-body-secondary border-0">
+                                <li class="list-group-item d-flex align-items-center y border-0">
                                     <span
                                         class="badge bg-success rounded-circle d-flex justify-content-center align-items-cente me-2">✓</span>
                                     <h3>Бак 10л</h3>
@@ -282,7 +280,7 @@
                             </ul>
                             <button title="button"
                                 class="btn btn-primary mt-4 btnSize shadow d-flex align-items-center mx-sm-auto">
-                                <div class="w-100 text-center">
+                                <div class="w-100 text-center"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <h3 style="margin: 0">Купить</h3>
                                 </div>
                             </button>
@@ -294,7 +292,7 @@
                 <div class="carousel-item">
                     <!-- Left and right controls/icons -->
                     <button title="button"
-                        class="carousel-control-prev btn btn-primary rounded-5 arrow-btn top-50 d-btn-none"
+                        class="carousel-control-prev btn btn-primary rounded-5 arrow-btn top-50 d-btn-none shadow"
                         type="button" data-bs-target="#demo" data-bs-slide="prev">
                         <span><img src="./images/left.svg" alt="" /></span>
                     </button>
@@ -303,7 +301,7 @@
                         <div
                             class="col-md-6 position-relative d-flex justify-content-center align-items-center carousel-height">
                             <button title="button"
-                                class="carousel-control-next btn btn-primary rounded-5 arrow-btn position-absolute top-50 z-2 d-btn-none "
+                                class="carousel-control-next btn btn-primary rounded-5 arrow-btn position-absolute top-50 z-2 d-btn-none shadow "
                                 type="button" data-bs-target="#demo" data-bs-slide="next">
                                 <span><img src="./images/right.svg" alt="" /></span>
                             </button>
@@ -314,11 +312,11 @@
                             <!-- Indicators/dots -->
                             <div class="carousel-indicators position-absolute bottom-25">
                                 <button title="button" type="button" data-bs-target="#demo"
-                                    data-bs-slide-to="0"></button>
+                                    data-bs-slide-to="0" class="bg-body-secondary"></button>
                                 <button title="button" type="button" data-bs-target="#demo"
-                                    data-bs-slide-to="1"></button>
+                                    data-bs-slide-to="1" class="bg-body-secondary"></button>
                                 <button title="button" type="button" data-bs-target="#demo"
-                                    data-bs-slide-to="2"></button>
+                                    data-bs-slide-to="2" class="bg-body-secondary"></button>
                                 <button title="button" type="button" data-bs-target="#demo" data-bs-slide-to="3"
                                     class="active"></button>
                             </div>
@@ -339,17 +337,17 @@
                             </h3>
 
                             <ul class="list-group list-group-flush gap-2 ml15">
-                                <li class="list-group-item d-flex align-items-center bg-body-secondary border-0">
+                                <li class="list-group-item d-flex align-items-center  border-0">
                                     <span
                                         class="badge bg-success rounded-circle d-flex justify-content-center align-items-cente me-2">✓</span>
                                     <h3>Внутренний диаметр - 2.5 см</h3>
                                 </li>
-                                <li class="list-group-item d-flex align-items-center bg-body-secondary border-0">
+                                <li class="list-group-item d-flex align-items-center  border-0">
                                     <span
                                         class="badge bg-success rounded-circle d-flex justify-content-center align-items-cente me-2">✓</span>
                                     <h3>Внешний диаметр – 2.9 см</h3>
                                 </li>
-                                <li class="list-group-item d-flex align-items-center bg-body-secondary border-0">
+                                <li class="list-group-item d-flex align-items-center  border-0">
                                     <span
                                         class="badge bg-success rounded-circle d-flex justify-content-center align-items-cente me-2">✓</span>
                                     <h3>Длина - 23 см</h3>
@@ -357,7 +355,7 @@
                             </ul>
                             <button title="button"
                                 class="btn btn-primary mt-4 btnSize shadow d-flex align-items-center mx-sm-auto ">
-                                <div class="w-100 text-center">
+                                <div class="w-100 text-center"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <h3 style="margin: 0">Купить</h3>
                                 </div>
                             </button>
@@ -368,8 +366,11 @@
         </div>
     </div>
 
+<!-- Section 1 -->
+
+
     <!-- Section 3 -->
-    <div class="container bg-body-tertiary section2-height my-5" style="width: 80%">
+    <div class="container  section2-height my-5" style="width: 80%">
         <div class="row">
             <div class="col-md-6 col-12 order-md-2 d-flex justify-content-center align-items-start">
                 <img src="./images/Illustration 2.png" alt="Image" class="img-fluid" />
@@ -386,7 +387,7 @@
                         изготовления.
                     </h3>
                 </div>
-                <button title="button" class="btn btn-primary mt-4 btnSize shadow d-flex align-items-center mx-sm-auto">
+                <button title="button" class="btn btn-primary mt-4 btnSize shadow d-flex align-items-center mx-sm-auto"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <div class="w-100 text-center">
                         <h3 style="margin: 0">Узнать подробнее</h3>
                     </div>
@@ -411,7 +412,7 @@
 
                             <button title="button"
                                 class="btn btn-outline-primary mt-4 btnSize shadow d-flex align-items-center mx-sm-auto">
-                                <div class="w-100 text-center">
+                                <div class="w-100 text-center"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <h3 style="margin: 0">Купить</h3>
                                 </div>
                             </button>
@@ -433,7 +434,7 @@
 
                             <button title="button"
                                 class="btn btn-outline-primary mt-4 btnSize shadow d-flex align-items-center mx-sm-auto">
-                                <div class="w-100 text-center">
+                                <div class="w-100 text-center"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <h3 style="margin: 0">Купить</h3>
                                 </div>
                             </button>
@@ -462,7 +463,7 @@
         
                                 <button title="button"
                                     class="btn btn-outline-primary mt-4 btnSize shadow d-flex align-items-center mx-sm-auto">
-                                    <div class="w-100 text-center">
+                                    <div class="w-100 text-center"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                                         <h3 style="margin: 0">Купить</h3>
                                     </div>
                                 </button>
@@ -484,7 +485,7 @@
         
                                 <button title="button"
                                     class="btn btn-outline-primary mt-4 btnSize shadow d-flex align-items-center mx-sm-auto">
-                                    <div class="w-100 text-center">
+                                    <div class="w-100 text-center"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                                         <h3 style="margin: 0">Купить</h3>
                                     </div>
                                 </button>
@@ -514,7 +515,7 @@
     
                             <button title="button"
                                 class="btn btn-outline-primary mt-4 btnSize shadow d-flex align-items-center mx-sm-auto">
-                                <div class="w-100 text-center">
+                                <div class="w-100 text-center"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <h3 style="margin: 0">Купить</h3>
                                 </div>
                             </button>
@@ -536,7 +537,7 @@
     
                             <button title="button"
                                 class="btn btn-outline-primary mt-4 btnSize shadow d-flex align-items-center mx-sm-auto">
-                                <div class="w-100 text-center">
+                                <div class="w-100 text-center"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <h3 style="margin: 0">Купить</h3>
                                 </div>
                             </button>
@@ -552,7 +553,7 @@
 
     <!-- Section 5 -->
 
-    <div class="container bg-body-tertiary section5-height my-5 shadow d-flex justify-content-center"
+    <div class="container  section5-height my-5 shadow d-flex justify-content-center"
         style="width: 80%">
         <div class="row">
             <div class="col-md-6 col-12 order-md-1 d-flex flex-column justify-content-center ">
@@ -560,7 +561,7 @@
                 <h4>Закажите обратный звонок, с вами свяжется менеджер и всё объяснит</h4>
             </div>
             <div class="col-md-6 col-12  order-md-2 d-flex flex-column justify-content-center ">
-                <button title="button" class="btn btn-primary  btnSize shadow d-flex align-items-center mx-auto">
+                <button title="button" class="btn btn-primary  btnSize shadow d-flex align-items-center mx-auto"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <div class="w-100 text-center">
                         <h3 style="margin: 0">Заказать звонок</h3>
                     </div>
@@ -571,7 +572,7 @@
 
     <!-- Footer -->
 
-    <div class="container bg-body-tertiary footer-height my-5 shadow d-flex flex-column-reverse justify-content-between"
+    <div class="container  footer-height my-5 shadow d-flex flex-column-reverse justify-content-between"
         style="width: 80%">
         <div class="mt-auto">
             <h5>©2022 ScientificEquipment</h5>
@@ -606,52 +607,78 @@
             </div>
         </div>
 
+<!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-sm m-auto">
+            <div class="modal-content bg-body-secondary">
+                <div class="modal-header border-0">
+                    <button id="modalCloseButton" type="button" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <a class="navbar-brand width-reduce" href="#"><img src="./images/ScientificEquipment.png"
+                            alt="Logo" /></a>
+                    <div id="formContainer" class="form-container d-flex ">
+                        <div id="successMessage" class="  d-none text-center m-auto">
+                            <h3 class="fw-bold">Спасибо!</h3>
+                            <h3 class="fw-bold">Ваша заявка успешна принята!</h3>
+                            <h4 class="text-secondary">Скоро с вами свяжется наш менеджер для уточнения деталей заказа</h4>
+                        </div>
+    
+                        <form id="myForm">
+    
+                            <div id="recipient-name-box" class="mb-3">
+                                <label for="recipient-name" class="col-form-label">
+                                    Ваше имя<span class="required-indicator">*</span>
+                                </label>
+                                <input type="text" class="form-control" id="recipient-name" required />
+                            </div>
+                            <div id="phone-box" class="mb-3">
+                                <label for="phone" class="col-form-label">
+                                    Номер телефона<span class="required-indicator">*</span>
+                                </label>
+                                <input type="text" class="form-control" id="phone" required />
+                            </div>
+                            <div id="textMessage" class="mb-3">
+                                <label for="message-text" class="col-form-label">Комментарий</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                            <div id="checkingBox" class="mb-3 form-check">
+                                <input type="checkbox" id="consentCheck" class="form-check-input"
+                                    onchange="toggleSubmitButton()" />
+                                <label for="consentCheck" class="form-check-label">
+                                    Даю своё согласие на обработку персональных данных
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button"
+                        class="btn btn-primary btnSize shadow d-flex justify-content-center align-items-center"
+                        id="submitButton" disabled>
+                        Оставить заявку
+                    </button>
+                    <button id="closeButton" type="button"
+                        class="btn btn-secondary btnSize shadow d-flex justify-content-center align-items-center d-none mx-auto"
+                        data-bs-dismiss="modal">
+                        Close
+                    </button>
+    
+                    <div id="alertMessage" class="alert alert-danger d-none" role="alert">
+                        Please fill in all the required fields.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"> 
-            $(function () {
-                $('.selectpicker').selectpicker();
-            });
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">                 
+        </script>
+        <script src="./js/scripts.js"></script>
 
       
-        </script>
-
-        <script>
-         document.addEventListener('DOMContentLoaded', function () {
-                let carousel = document.getElementById('demo');
-                let elementToShow = document.getElementById('ElementId');
-
-                carousel.addEventListener('slid.bs.carousel', function (event) {
-                    let activeSlide = event.to;
-
-                    if (activeSlide === 0 || activeSlide === 1) {
-                        elementToShow.classList.remove('d-none');
-                    } else {
-                        elementToShow.classList.add('d-none');
-                    }
-
-                    if (activeSlide === 2) {
-                        let element3ToShow = document.getElementById('ElementId3');
-                        element3ToShow.classList.remove('d-none');
-                    } else {
-                        let element3ToShow = document.getElementById('ElementId3');
-                        element3ToShow.classList.add('d-none');
-                    }
-
-                    if (activeSlide === 3) {
-                        let element4ToShow = document.getElementById('ElementId4');
-                        element4ToShow.classList.remove('d-none');
-                    } else {
-                        let element4ToShow = document.getElementById('ElementId4');
-                        element4ToShow.classList.add('d-none');
-                    }
-
-                    console.log('Slide changed!');
-                });
-            });
-
-        </script>
         <!-- <script>src="./js/bootstrap.bundle.min.js"</script> -->
 </body>
 

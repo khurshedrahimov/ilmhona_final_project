@@ -110,6 +110,28 @@ margin-bottom:30px;
     min-height: 211px;
 }
 
+.form-check-input:checked {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.required-indicator {
+    color: red;
+    margin-left: 5px;
+}
+
+input.filled + label .required-indicator {
+    color: green;
+}
+
+.form-container {
+  height: 400px; /* Set the desired fixed height */
+}
+
+.modal-sm {
+    max-width: 350px;
+}
+
 @media (max-width: 576px) {
   .mbot  {
     margin-bottom: 20px;

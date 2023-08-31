@@ -2,67 +2,90 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
+    <button title="button" class="btn btn-primary mt-4 btnSize shadow d-flex align-items-center mx-sm-auto"
+        data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="w-100 text-center">
+            <h3 style="margin: 0">Узнать подробнее</h3>
+        </div>
+    </button>
 
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-bs-target="#demo" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#demo" data-bs-slide-to="1"></li>
-            <li data-bs-target="#demo" data-bs-slide-to="2"></li>
-        </ol>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-sm m-auto">
+            <div class="modal-content bg-body-secondary">
+                <div class="modal-header border-0">
+                    <button id="modalCloseButton" type="button" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <a class="navbar-brand width-reduce" href="#"><img src="./images/ScientificEquipment.png" alt="Logo"
+                             /></a>
+                    <div id="formContainer" class="form-container d-flex ">
+                        <div id="successMessage" class="  d-none text-center m-auto">
+                            <h3 class="fw-bold">Спасибо!</h3>
+                            <h3 class="fw-bold">Ваша заявка успешна принята!</h3>
+                            <h4 class="text-secondary">Скоро с вами свяжется наш менеджер для уточнения деталей заказа</h4>
+                        </div>
 
-        <!-- Slides -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./images/20220406_123225.png" alt="Image 1">
-            </div>
-            <div class="carousel-item">
-                <img src="./images/20220406_1232251.png" alt="Image 2">
-            </div>
-            <div class="carousel-item">
-                <img src="./images/20220406_1232256.png" alt="Image 3">
+                        <form id="myForm" >
+                          
+                            <div id="recipient-name-box" class="mb-3">
+                                <label for="recipient-name" class="col-form-label">
+                                    Ваше имя<span class="required-indicator">*</span>
+                                </label>
+                                <input type="text" class="form-control" id="recipient-name" required />
+                            </div>
+                            <div id="phone-box" class="mb-3">
+                                <label for="phone" class="col-form-label">
+                                    Номер телефона<span class="required-indicator">*</span>
+                                </label>
+                                <input type="text" class="form-control" id="phone" required />
+                            </div>
+                            <div id="textMessage" class="mb-3">
+                                <label for="message-text" class="col-form-label">Комментарий</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                            <div id="checkingBox" class="mb-3 form-check">
+                                <input type="checkbox" id="consentCheck" class="form-check-input"
+                                    onchange="toggleSubmitButton()" />
+                                <label for="consentCheck" class="form-check-label">
+                                    Даю своё согласие на обработку персональных данных
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button"
+                        class="btn btn-primary btnSize shadow d-flex justify-content-center align-items-center"
+                        id="submitButton" disabled>
+                        Оставить заявку
+                    </button>
+                    <button id="closeButton" type="button"
+                        class="btn btn-secondary btnSize shadow d-flex justify-content-center align-items-center d-none"
+                        data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                    <div id="alertMessage" class="alert alert-danger d-none" role="alert">
+                        Please fill in all the required fields.
+                    </div>
+                </div>
             </div>
         </div>
-
-        <!-- Controls -->
-        <a class="carousel-control-prev" href="#demo" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#demo" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </a>
-    </div>
-
-    <div id="yourElementId">
-        <h1>This element will be hidden on the second slide.</h1>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-  document.addEventListener('DOMContentLoaded', function () {
-        var carousel = document.getElementById('demo');
-        var elementToHide = document.getElementById('yourElementId');
+    <script src="./js/scripts.js">
 
-        carousel.addEventListener('slid.bs.carousel', function (event) {
-            if (event.to === 1) {
-                elementToHide.classList.remove('d-none');
-            } else {
-                elementToHide.classList.add('d-none');
-            }
 
-            console.log('Slide changed!');
-        });
-    });
     </script>
-
 </body>
 
 </html>
