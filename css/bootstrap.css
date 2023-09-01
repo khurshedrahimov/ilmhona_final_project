@@ -12052,6 +12052,13 @@ h1, .h1 {
   margin-top: 8rem !important;
 }
 
+.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
 @media (max-width: 576px) {
   .mt-8 {
     margin-top: 3rem !important;

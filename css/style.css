@@ -144,6 +144,11 @@ input.filled + label .required-indicator {
     top:15px;
 }
 
+@media (max-width: 1000px) {
+.wfooter {
+    gap:10px;
+}
+}
 
 
 @media (max-width: 576px) {
@@ -152,7 +157,7 @@ input.filled + label .required-indicator {
 }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 767px) {
 .borderImage {
     border-left:0px;
     border-top: 2px solid #EEEFF2;
@@ -170,6 +175,12 @@ input.filled + label .required-indicator {
 .w80 {
   width: 95%;
 }
+}
+
+@media (min-width: 577px) and (max-width: 1025px) {
+  .w80 {
+    width: 90%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -204,14 +215,14 @@ input.filled + label .required-indicator {
 }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1025px) {
 .left-border {
     border-left: 0px;
     border-top: 2px solid #EEEFF2;
 }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1025px) {
 .right-border {
     border-right: 0px;
    
