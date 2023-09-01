@@ -1,7 +1,7 @@
 // Function for language selection
- (function () {
-                ('.selectpicker').selectpicker();
-            });
+$(document).ready(function() {
+  $('.selectpicker').selectpicker();
+});
 
 // For slide change hiding and showing some divs
 document.addEventListener('DOMContentLoaded', function () {
